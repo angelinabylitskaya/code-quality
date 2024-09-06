@@ -1,0 +1,1 @@
+git rev-parse -q --no-revs --verify MERGE_HEAD && echo "Merge mode - pre-commit skipped" || npx lint-staged

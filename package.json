@@ -1,0 +1,31 @@
+{
+  "name": "code-quality",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelinabylitskaya/code-quality.git"
+  },
+  "author": "angelinabylitskaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelinabylitskaya/code-quality/issues"
+  },
+  "homepage": "https://github.com/angelinabylitskaya/code-quality#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.35.2",
+    "globals": "^15.9.0",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.10",
+    "prettier": "3.3.3",
+    "typescript-eslint": "^8.4.0"
+  }
+}
